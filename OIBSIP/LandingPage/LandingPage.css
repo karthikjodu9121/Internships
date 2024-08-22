@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-logo,
+.pro-logo {
+    height: 100px;
+    width: 150px;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+.btn-primary {
+    background-color: #3b82f6;
+    border-color: #3b82f6;
+}
+
+.btn-primary:hover {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.btn-link {
+    color: white;
+}
+
+.btn-link:hover {
+    color: #2563eb;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.canva-img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-us {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.contact {
+    font-family: "bree-serif";
+    font-weight: bold;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media li:last-child {
+    margin-right: 0;
+}
+
+.list-inline-item
+{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}

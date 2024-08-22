@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 5px solis wheat;
+    border-radius: 20px;
+    margin: 50px auto;
+    width: 60%;
+
+}
+
+.heading
+{
+    color: orange;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item input[type="text"] {
+    flex: 1;
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.todo
+{
+    font-weight: bold;
+    opacity: 1;
+}
+
+.add-button
+{
+    margin-left: 15px;
+}
+
+.list-group-item.completed input[type="text"] {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.list-group-item input[type="text"]:read-only {
+    background: transparent;
+}

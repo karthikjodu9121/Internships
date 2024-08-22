@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">To-Do List</h1>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="todo-input" placeholder="Add a new task...">
+            <div class="input-group-append">
+                <button class="btn btn-primary" id="add-todo" type="button"><i class="fas fa-plus"></i> Add</button>
+            </div>
+        </div>
+        <div class="text-right mb-3">
+            <button class="btn btn-danger" id="clear-todos"><i class="fas fa-trash-alt"></i> Clear All Todos</button>
+        </div>
+        <ul class="list-group" id="todo-list"></ul>
+    </div>
+    <script src="todolist.js"></script>
+</body>
+</html>

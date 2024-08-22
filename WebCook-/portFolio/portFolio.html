@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthik Jodu's Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Karthik Jodu</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about" class="section py-5">
+    <div class="container text-center">
+        <h2>About Me</h2>
+        <img src="https://thumbs.dreamstime.com/z/d-illustration-smiling-happy-man-laptop-sitting-armchair-cartoon-businessman-working-office-using-social-networks-184043514.jpg" alt="Karthik Jodu" class="img-fluid rounded-circle my-3" width="200">
+        <p>Hello! I'm Karthik Jodu, a passionate <span class="skill-set" id="dynamic-skill"></span>.</p>
+    </div>
+</section>
+
+
+    <section id="projects" class="section py-5 bg-light">
+        <div class="container">
+            <h2 style="font-weight : bold" class="text-center">Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Project 1</h3>
+                            <p class="card-text">A web application built with React and Node.js.</p>
+                            <a href="#" class="btn btn-primary view-more"><i style="color : orange" class="fas fa-arrow-right"></i> View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Project 2</h3>
+                            <p class="card-text">A data analysis tool using Python and Pandas.</p>
+                            <a href="#" class="btn btn-primary view-more"><i style="color : orange" class="fas fa-arrow-right"></i> View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Project 3</h3>
+                            <p class="card-text">An Android app developed with Java and Firebase.</p>
+                            <a href="#" class="btn btn-primary view-more"><i style="color : orange" class="fas fa-arrow-right"></i> View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section py-5">
+        <div class="container">
+            <h2 class="text-center">Skills</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="skill">
+                        <h3>Web Development</h3>
+                        <p>HTML</p>
+                        <progress value="90" max="100" class="progress-bar"></progress>
+                        <p>CSS</p>
+                        <progress value="85" max="100" class="progress-bar"></progress>
+                        <p>JavaScript</p>
+                        <progress value="80" max="100" class="progress-bar"></progress>
+                        <p>React</p>
+                        <progress value="75" max="100" class="progress-bar"></progress>
+                        <p>Node.js</p>
+                        <progress value="75" max="100" class="progress-bar"></progress>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="skill">
+                        <h3>Python Development</h3>
+                        <progress value="90" max="100" class="progress-bar"></progress>
+                    </div>
+                    <div class="skill mt-4">
+                        <h3>Java Development</h3>
+                        <progress value="70" max="100" class="progress-bar"></progress>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section py-5 bg-light">
+        <div class="container text-center">
+            <h2 style="font-weight : bold">Contact Information</h2>
+            <div class="social-media mt-3">
+                <a href="mailto:karthik@example.com" class="fas fa-envelope"></a>
+                <a href="https://www.linkedin.com/in/karthikjodu" class="fab fa-linkedin"></a>
+                <a href="https://github.com/karthikjodu" class="fab fa-github"></a>
+                <a href="mailto:karthik@example.com" class="fab fa-facebook"></a>
+                <a href="https://www.linkedin.com/in/karthikjodu" class="fab fa-instagram"></a>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 bg-dark text-white text-center">
+        <div class="container">
+            <p>&copy; 2024 Karthik Jodu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
