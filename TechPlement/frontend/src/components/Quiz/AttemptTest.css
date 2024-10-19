@@ -1,0 +1,80 @@
+/* Overall container for the AttemptTest component */
+.attempts-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.attempts-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Section for each quiz title */
+.quiz-section {
+    margin-bottom: 40px;
+}
+
+.quiz-section h2 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Table styling */
+.attempts-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.attempts-table th,
+.attempts-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.attempts-table th {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.attempts-table td {
+    background-color: #fff;
+    color: #333;
+}
+
+.attempts-table tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+.attempts-table tr:hover td {
+    background-color: #e0f7fa;
+}
+
+/* Loading and Error Messages */
+.loading-message,
+.error-message {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #ff4c4c;
+}
+
+.error-message {
+    color: #d9534f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .attempts-table {
+        font-size: 0.9em;
+    }
+}

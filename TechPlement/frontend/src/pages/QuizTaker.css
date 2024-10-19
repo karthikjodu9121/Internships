@@ -1,0 +1,150 @@
+/* QuizTaker.css */
+
+.quiz-taker-container {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/* Hero image styling */
+.header .hero-image {
+    width: 50%;
+    /* Adjust width to decrease image size */
+    margin: 20px auto;
+    /* Center the image */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.header .hero-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Ensure the image covers the container */
+}
+
+/* Header text styling */
+.header h1 {
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.header p {
+    font-size: 1.5rem;
+    color: #4a90e2;
+    font-weight: 500;
+}
+
+/* Navigation styling */
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.nav-button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.nav-button:hover {
+    background-color: #357abd;
+    transform: scale(1.05);
+}
+
+.nav-button:active {
+    transform: scale(0.98);
+}
+
+/* Centering and styling quizzes container */
+.quizzes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual quiz card styling */
+.quiz-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 250px;
+    /* Fixed width for each card */
+    text-align: center;
+    /* Center text within card */
+}
+
+.quiz-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.quiz-category,
+.questions-count {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.take-quiz-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.take-quiz-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.take-quiz-button:active {
+    transform: scale(0.98);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 1200px) {
+    .quiz-card {
+        width: 220px;
+        /* Adjust card width for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .quiz-card {
+        width: 200px;
+        /* Adjust card width for small screens */
+    }
+}

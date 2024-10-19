@@ -1,0 +1,81 @@
+/* EditQuiz.css */
+
+.edit-quiz {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 1000;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.edit-quiz h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.edit-quiz label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.edit-quiz input[type="text"],
+.edit-quiz textarea {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.edit-quiz textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.edit-quiz-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.edit-quiz-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.edit-quiz-actions button:hover {
+    background-color: #ddd;
+}
+
+.edit-quiz-actions button:first-child {
+    background-color: #4caf50;
+    color: white;
+}
+
+.edit-quiz-actions button:last-child {
+    background-color: #f44336;
+    color: white;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.question-container label {
+    display: block;
+    margin-bottom: 10px;
+}
